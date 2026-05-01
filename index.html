@@ -257,5 +257,13 @@
       document.getElementById('successMessage').classList.add('visible');
     }
   </script>
+<flowise-chatbot></flowise-chatbot>
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "a2e9b562-af3c-457c-a556-5fe184e1b205",
+        apiHost: "https://flowiseai.itk.ppke.hu",
+    })
+</script>
 </body>
 </html>
